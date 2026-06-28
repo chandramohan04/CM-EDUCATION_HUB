@@ -14,14 +14,19 @@ A full-stack web application designed for education and admissions management.
    ```bash
    git clone [https://github.com/chandramohan04/CM-EDUCATION_HUB.git](https://github.com/chandramohan04/CM-EDUCATION_HUB.git)
    cd CM-EDUCATION_HUB
-```
+   ```
+
+
+2. Install dependencies:
 
 ```bash
-2. Install dependencies:
 npm install
 cd frontend && npm install
 ```
 
 3.Run the application:
+```bash
 # From the root directory
+
 npm run dev
+   ```
