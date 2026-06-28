@@ -17,7 +17,6 @@ A full-stack web application designed for education and admissions management.
    ```
 
 
-2. Install dependencies:
 
 ```bash
 npm install
