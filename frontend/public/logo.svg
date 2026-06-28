@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CM Education Hub logo">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ff7a18" />
+      <stop offset="100%" stop-color="#2b6df6" />
+    </linearGradient>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded rectangle -->
+  <rect width="1200" height="600" rx="24" fill="url(#g1)" />
+
+  <!-- Open book shape -->
+  <g transform="translate(100,80)" fill="url(#g2)">
+    <path d="M120 20 C60 40 30 80 0 120 L240 240 L480 120 C450 80 420 40 360 20 L240 0 Z" opacity="0.95"/>
+    <path d="M240 0 L240 240 L480 120 C420 80 360 40 240 0 Z" opacity="0.12"/>
+  </g>
+
+  <!-- Globe icon (simplified) -->
+  <g transform="translate(720,140)">
+    <circle cx="0" cy="0" r="100" fill="#ffffff" opacity="0.95" />
+    <path d="M-100 0 A100 100 0 0 0 100 0" stroke="#2b6df6" stroke-width="6" fill="none" opacity="0.12" />
+    <path d="M0 -100 A100 100 0 0 1 0 100" stroke="#ff7a18" stroke-width="6" fill="none" opacity="0.12" />
+  </g>
+
+  <!-- Mortarboard hat -->
+  <g transform="translate(520,60)">
+    <polygon points="0,0 120,-40 240,0 120,40" fill="#0b1226" />
+    <rect x="112" y="40" width="16" height="48" fill="#0b1226" />
+    <circle cx="128" cy="92" r="6" fill="#ffcc00" />
+  </g>
+
+  <!-- Text -->
+  <text x="120" y="460" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" fill="#ffffff">CM EDUCATION HUB</text>
+  <text x="120" y="520" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#fff7e6">Your Future, Our Guidance</text>
+</svg>
